@@ -44,7 +44,6 @@ for ogrenme_katsayisi in ogrenme_katsayilari:
         # Hata toplamı sıfırsa, erkenden çık
         if hata_toplami == 0:
             break
-
     # Eğitim sonucunu saklayın
     sonuclar.append((ogrenme_katsayisi, w, iterasyon + 1))
 
@@ -56,7 +55,5 @@ en_iyi_ogrenme_katsayisi, en_iyi_ağırlıklar, en_iyi_iterasyon = en_iyi_sonuc
 print(f"En iyi öğrenme hızı: {en_iyi_ogrenme_katsayisi}")
 print(f"Eğitim sonrası ağırlıklar: {en_iyi_ağırlıklar}")
 print(f"{en_iyi_iterasyon} iterasyon sonunda eğitim tamamlandı.")
-
-
 
 
